@@ -1,0 +1,33 @@
+input:focus-visible {
+  outline: none;
+}
+
+.autocomplete-input {
+  width: 304px;
+  display: block;
+}
+
+
+.autocomplete-input_suggestions {
+  border: solid 1px grey;
+  padding: 0px 15px;
+  max-height: 300px;
+  margin: 0px auto;
+  width: 90%;
+  background-color: white;
+  overflow-y: scroll;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  
+}
+
+.autocomplete-input_suggestions .option {
+  cursor: pointer;
+  background-color: white;
+  margin: 5px 0px;
+}
+
+.autocomplete-input_suggestions .option:hover {
+  cursor: pointer;
+  color: grey;
+}
